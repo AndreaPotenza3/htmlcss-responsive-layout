@@ -1,0 +1,68 @@
+/* RESET */
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #d9d9d9;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* LAYOUT */
+
+.container-fluid {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header {
+    font-family: "Nerko One", cursive;
+    background-color: white;
+
+}
+
+.nav-title {
+    font-weight:900;
+    font-size: 42px;
+    padding: 10px 25px;
+    color: #FF9614;
+    text-shadow: 2px 2px gray;
+ 
+}
+
+/* MAIN */
+
+
+
+
+
+
+/* RESPONSIVE */
+
