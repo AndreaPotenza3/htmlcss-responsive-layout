@@ -61,6 +61,7 @@ figure {
 
 .col-33 {
     width: calc(100% / 3);
+    padding: 30px 0;
 }
 
 .col-12 {
@@ -107,6 +108,8 @@ header {
 }
 
 .video {
+
+    width: 100%;
     display: block;
 }
 
@@ -115,11 +118,11 @@ header {
     flex-direction: column;
     gap: 25px;
     flex-wrap: wrap;
-    padding: 0 35px;
+    padding: 30px 35px;
 }
 
 .list-title{
-    padding: 0 35px;
+    padding: 0px 35px;
 }
 
 .list-title strong{
