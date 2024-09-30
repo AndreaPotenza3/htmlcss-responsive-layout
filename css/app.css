@@ -154,19 +154,19 @@ header {
     font-size: 12px;
 }
 
-.fa-facebook{
+.fb-icon{
     color: #1A77F3;
 }
 
-.fa-twitter{
+.tw-icon{
     color: #009EFF;
 }
 
-.fa-instagram{
+.ig-icon{
     color: #E15B8D;
 }
 
-.fa-pinterest,.fa-youtube{
+.pt-icon,.yt-icon{
     color: #E62222;
 }
 
