@@ -42,6 +42,7 @@ figure {
 .container {
     max-width: 1350px;
     margin: auto;
+    padding: 0 50px;
 }
 
 .container-fluid {
@@ -126,6 +127,15 @@ header {
     font-size: 20px;
 }
 
+.col-12 h5 {
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.col-12 h1 {
+    margin-top: 10px;
+}
+
 /* LOGOS */
 
 .container.logo{
@@ -157,15 +167,56 @@ header {
     color: #E15B8D;
 }
 
-.fa-pinterest{
-    color: #E62222;
-}
-
-.fa-youtube{
+.fa-pinterest,.fa-youtube{
     color: #E62222;
 }
 
 
+
+/* PREENTAZIONE */
+
+.float-left {
+    float: left;
+    max-width: 380px;
+    padding-right: 12px;
+
+
+}
+
+.presentation p {
+    line-height: 34px;
+    font-size: 20px;
+    padding-bottom: 110px;
+}
+.presentation h1 {
+    font-size: 36px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #7C69A4;
+    color: white;
+    padding: 30px 22px;
+}
+
+.credits {
+    justify-content: space-between;
+}
+
+.address{
+    margin-bottom: 0;
+}
+
+.credits-list {
+    display: flex;
+    gap: 25px;
+}
+
+.credits-list a {
+    text-decoration: underline;
+    color: white;
+}
 
 
 
@@ -211,5 +262,15 @@ header {
     
     .info {
         flex-direction: column;
+    }
+
+    .float-left {
+        float: none;
+        width: 100%;
+        object-position: center;
+    }
+
+    footer {
+        text-align: center;
     }
 }
