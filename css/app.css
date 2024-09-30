@@ -244,6 +244,10 @@ footer {
     .logos strong {
         display: none;
     }
+
+    .credits {
+        justify-content: center;
+        text-align: center;
 }
 
 @media (max-width:767.99px) {
