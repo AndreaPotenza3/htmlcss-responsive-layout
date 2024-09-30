@@ -107,6 +107,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .list-title{
@@ -130,6 +131,10 @@ header {
     }
     .col-66,.col-33{
         width: 100%;
+    }
+
+    .info {
+        flex-direction: row;
     }
 }
 
