@@ -18,8 +18,13 @@ a {
     color: black;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 body {
-    background-color: #d9d9d9;
+    background-color: #F6F5F3;
     margin: 0;
 }
 
@@ -28,6 +33,11 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* LAYOUT */
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+}
 
 .container-fluid {
     max-width: 100%;
@@ -38,6 +48,18 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.col-66 {
+    width: calc(2 * 100% / 3);
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-12 {
+    width: 100%;
 }
 
 /* HEADER */
@@ -59,6 +81,30 @@ header {
 
 /* MAIN */
 
+.hero {
+    padding-top: 60px;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px #EAE9E8;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+.video {
+    display: block;
+}
+
+.col-33.ingredients {
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 
 
