@@ -83,6 +83,7 @@ header {
 
 .hero {
     padding-top: 60px;
+    padding: 0 50px;
 }
 
 .card {
@@ -90,6 +91,7 @@ header {
     background-color: white;
     box-shadow: 2px 2px #EAE9E8;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .hero-title {
@@ -101,9 +103,18 @@ header {
     display: block;
 }
 
-.col-33.ingredients {
+.info {
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 25px;
+}
+
+.list-title{
+    padding: 40px 0;
+}
+
+.list-title strong{
+    font-size: 20px;
 }
 
 
@@ -114,6 +125,12 @@ header {
 
 @media (max-width:991.99px) {
 
+    .container{
+        max-width: 920px;
+    }
+    .col-66,.col-33{
+        width: 100%;
+    }
 }
 
 @media (max-width:767.99px) {
