@@ -11,6 +11,7 @@ html {
 
 ul, ol {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -25,6 +26,10 @@ img {
 
 body {
     background-color: #F6F5F3;
+    margin: 0;
+}
+
+figure {
     margin: 0;
 }
 
@@ -81,6 +86,8 @@ header {
 
 /* MAIN */
 
+/* HERO */
+
 .hero {
     padding-top: 60px;
     padding: 0 50px;
@@ -108,10 +115,11 @@ header {
     flex-direction: column;
     gap: 25px;
     flex-wrap: wrap;
+    padding: 0 35px;
 }
 
 .list-title{
-    padding: 40px 0;
+    padding: 0 35px;
 }
 
 .list-title strong{
@@ -120,6 +128,10 @@ header {
 
 /* LOGOS */
 
+.container.logo{
+    padding: 36px 0;
+}
+
 .logos {
     display: flex;
     justify-content: space-between;
@@ -127,10 +139,33 @@ header {
 }
 
 .logos li {
-    padding: 0 20px;
+    padding: 12px 60px;
     border-radius: 999px;
     background-color: white;
+    font-size: 12px;
 }
+
+.fa-facebook{
+    color: #1A77F3;
+}
+
+.fa-twitter{
+    color: #009EFF;
+}
+
+.fa-instagram{
+    color: #E15B8D;
+}
+
+.fa-pinterest{
+    color: #E62222;
+}
+
+.fa-youtube{
+    color: #E62222;
+}
+
+
 
 
 
