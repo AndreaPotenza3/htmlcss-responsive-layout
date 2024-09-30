@@ -42,7 +42,6 @@ figure {
 .container {
     max-width: 1350px;
     margin: auto;
-    padding: 0 50px;
 }
 
 .container-fluid {
@@ -175,6 +174,10 @@ header {
 
 /* PREENTAZIONE */
 
+.presentation {
+    padding: 0 50px;
+}
+
 .float-left {
     float: left;
     max-width: 380px;
@@ -268,9 +271,11 @@ footer {
         float: none;
         width: 100%;
         object-position: center;
+        margin: auto;
     }
 
-    footer {
+    .credits {
+        justify-content: center;
         text-align: center;
     }
 }
