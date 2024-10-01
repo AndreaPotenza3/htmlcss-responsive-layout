@@ -138,24 +138,24 @@ header {
     margin-top: 10px;
 }
 
+.row.logos > *{
+    width: 20%;
+    border-radius: 999px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 36px;
+}
+
+
 /* LOGOS */
 
 .container.logo{
     padding: 36px 0;
 }
 
-.logos {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.logos li {
-    padding: 12px 60px;
-    border-radius: 999px;
-    background-color: white;
-    font-size: 12px;
-}
 
 .fb-icon{
     color: #1A77F3;
